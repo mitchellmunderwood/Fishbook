@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0 auto 50px auto;
+  width: 900px;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-logo {
+  display: block;
+  padding: 20px;
+}
+
+.footer-notifications {
+  display: flex;
+  padding: 20px; 
+}
+
+.footer-notifications > li {
+  padding: 0 0 0 20px;
+}
+
+.footer a:hover {
+  color: #000;
+}
