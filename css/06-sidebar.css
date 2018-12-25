@@ -1,0 +1,48 @@
+.content-sidebar {
+  padding: 20px;
+}
+
+.profile-pic {
+  display: block;
+  margin-top: -120px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-info {
+  margin: 20px auto;
+}
+
+.profile-info > p {
+  margin: inherit
+}
+
+.profile-info > h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.profile-nav {
+  margin: 20px 0;
+}
+
+.profile-nav > li:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.profile-nav > li {
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-nav > li:hover {
+  background: #eee;
+}
+
+.profile-nav a {
+  display: block;
+  padding: 5px;
+  font-weight: 700;
+}

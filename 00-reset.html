@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="css/02-notifications.css" type="text/css">
     <link rel="stylesheet" href="css/03-layout.css" type="text/css">
     <link rel="stylesheet" href="css/04-footer.css" type="text/css">
-    <link rel="stylesheet" href="css/05-cats.css" type="text/css">
+    <link rel="stylesheet" href="css/05-cover.css" type="text/css">
+    <link rel="stylesheet" href="css/06-sidebar.css" type="text/css">
   </head>
   <body>
       <header class="header">
         <nav class = "header-nav">
         <h1 class="header-logo">
-          <a href="#">Facebook</a>
+          <a href="#">Fishbook</a>
         </h1>
 
 
@@ -48,17 +49,21 @@
 
         </section>
         <section class = "content-sidebar">
-          <img src="./assets/profile-pic.jpg" alt="" width=20px height =20px>
 
-          <h1>
-            Todd Fishermann
-          </h1>
+          <a href="#">
+            <img class = "profile-pic" src="./assets/profile-pic.jpg" alt="" width=20px height =20px>
+          </a>
 
-          <p>
-            These are a few words about todd
-          </p>
+          <div class="profile-info">
+            <h1>
+              Todd Fishermann
+            </h1>
+            <p>
+              Some people say that I have an inflated ego. Though I may sometimes get puffed up, I'm really rather humble.
+            </p>
+          </div>
 
-          <ul>
+          <ul class = "profile-nav">
             <li><a href="#">Wall</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Friends</a></li>
@@ -66,10 +71,14 @@
           </ul>
 
         </section>
+
+
         <section class="content-main">
           main
         </section>
       </main>
+
+
       <footer class="footer">
         <h1 class = "footer-logo">
           © 2014 App Academy. All rights reserved.
