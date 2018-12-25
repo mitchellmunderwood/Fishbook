@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/00-reset.css" type="text/css">
     <link rel="stylesheet" href="css/01-header.css" type="text/css">
+    <link rel="stylesheet" href="css/02-notifications.css" type="text/css">
+    <link rel="stylesheet" href="css/03-layout.css" type="text/css">
   </head>
   <body>
       <header class="header">
@@ -16,13 +18,31 @@
 
 
           <ul class = "header-list">
-            <li><a href="#">Notifications</a></li>
+            <li>
+              <a href="#">Notifications
+                <strong class = "badge">3</strong>
+              </a>
+              <ul class = "header-notifications">
+                <li><a href="#">Anna likes your photo.</a></li>
+                <li><a href="#">Jeremy left you a comment.</a></li>
+                <li><a href="#">Joel is now following you.</a></li>
+              </ul>
+            </li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Settings</a></li>
           </ul>
         </nav>
 
       </header>
+      <main class = "content">
+        <section class = "content-sidebar">
+          sidebard
+        </section>
+        <section class="content-main">
+          main
+        </section>
+      </main>
+
 
 
   </body>
