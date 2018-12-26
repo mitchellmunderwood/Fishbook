@@ -8,9 +8,14 @@
   border: 1px solid #000;
   border-radius: 5px;
   position: relative;
+}
+
+.profile-pic img {
   width: 200px;
   height: 200px;
+
 }
+
 
 .profile-info {
   margin: 20px auto;
