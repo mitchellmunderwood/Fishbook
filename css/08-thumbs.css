@@ -1,0 +1,19 @@
+.friends {
+  margin: auto
+}
+
+.friends li:nth-child(3n) {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.thumb {
+  float: left;
+  /* background: red; */
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 59px;
+  height: 59px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
