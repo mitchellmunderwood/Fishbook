@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/06-sidebar.css" type="text/css">
     <link rel="stylesheet" href="css/07-online.css" type="text/css">
     <link rel="stylesheet" href="css/08-thumbs.css" type="text/css">
+    <link rel="stylesheet" href="css/09-forms.css" type="text/css">
   </head>
   <body>
       <header class="header">
@@ -56,7 +57,7 @@
               <strong class="banner">
                 online
               </strong>
-            <img src="./assets/profile-pic.jpg" alt="" width=20px height =20px>
+            <img src="./assets/thumb.jpg" alt="" width=20px height =20px>
 
             </img>
 
@@ -94,7 +95,27 @@
 
 
         <section class="content-main">
-          main
+          <form class="form" action="index.html" method="post">
+            <a href="#" class="form-thumb thumb" title="Todd"><img src="./assets/thumb.jpg" alt=""></a>
+          <fieldset class = "form-fieldset">
+
+            <div class="input">
+              <label for="form-title">Post Title</label>
+              <input id = "form-title" type="text" value="...">
+            </div>
+
+            <div class="input">
+              <label for="form-text">Post Body</label>
+              <textarea id="form-text">...</textarea>
+            </div>
+
+            <div class="submit">
+              <button>Post To Wall</button>
+              <span class="button-alternative">or <strong>Cancel</strong></span>
+            </div>
+
+          </fieldset>
+          </form>
         </section>
       </main>
 
