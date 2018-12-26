@@ -1,0 +1,55 @@
+.posts {
+  /* wrapper for all three comments */
+}
+
+.post {
+  margin: 20px 0 0 0;
+  padding: 20px 0 0 0;
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+.post-body {
+  margin: 0 0 0 20px;
+  width: 540px;
+}
+
+.post-body > h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.post-body > p {
+  margin: 0 0 20px 0;
+}
+
+.post-nav {
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-nav-info {
+  display: flex;
+  color: #999;
+  font-size: 14px;
+}
+
+.post-nav-info > li:after {
+  content: "·";
+  padding: 0 5px;
+}
+
+.post-nav-info > li:last-child:after {
+  content: none;
+}
+
+
+.post-nav-links {
+  display: flex;
+}
+
+.post-nav-links > li {
+  margin: 0 0 0 10px;
+}
